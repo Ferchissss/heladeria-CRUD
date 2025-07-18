@@ -31,9 +31,11 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 
 git clone https://github.com/tuusuario/sistema-academico.git
 cd heladeria
-2. Instalar dependencias
+
+### 2. Instalar dependencias
 composer install
-3. Configurar entorno
+
+### 3. Configurar entorno
 cp .env.example .env
 php artisan key:generate
 Editar .env con tus credenciales:
@@ -42,9 +44,11 @@ env
 DB_DATABASE=heladeria
 DB_USERNAME=root
 DB_PASSWORD=
-4. Ejecutar migraciones y seeders
+
+### 4. Ejecutar migraciones y seeders
 php artisan migrate --seed
-5. Iniciar servidor
+
+### 5. Iniciar servidor
 php artisan serve
 Abrir en navegador: http://localhost:8000
 
@@ -76,7 +80,7 @@ Abrir en navegador: http://localhost:8000
 
 ---
 ## Diagrama entidad-relacion
-![Diagrama Entidad-Relación](img/Diagrama Entidad-Relacion.png)
+![Diagrama Entidad-Relación](img/Diagrama.png)
 
 📸 Evidencias de Ejecución
 
