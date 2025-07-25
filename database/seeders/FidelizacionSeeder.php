@@ -12,6 +12,6 @@ class FidelizacionSeeder extends Seeder
      */
     public function run(): void
     {
-        \App\Models\Fidelizacion::factory(15)->create();
+        \App\Models\Fidelizacion::factory(5)->create();
     }
 }

@@ -12,9 +12,6 @@ class Cliente extends Model
     /** @use HasFactory<\Database\Factories\ClienteFactory> */
     use HasFactory, Notifiable;
 
-    protected $primaryKey = 'cliente_id';
-    protected $table = 'clientes';
-
     protected $fillable = [
         'nombre',
         'apellido',

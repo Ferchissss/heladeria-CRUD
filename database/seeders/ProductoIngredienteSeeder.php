@@ -12,6 +12,6 @@ class ProductoIngredienteSeeder extends Seeder
      */
     public function run(): void
     {
-        \App\Models\ProductoIngrediente::factory(15)->create();
+        \App\Models\ProductoIngrediente::factory(5)->create();
     }
 }
